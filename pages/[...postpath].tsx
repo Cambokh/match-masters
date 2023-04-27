@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://clashbot99.com/` + encodeURI(path as string)
+					`https://clashbot99.com/match-masters` + encodeURI(path as string)
 				}`,
 			},
 		};
